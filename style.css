@@ -148,9 +148,10 @@ header .header-cases {
 .index-banner {
     width: 100%;
     height: calc(100vh - 100px) ;
-    background-image: url('./cert.jpg');
+    background-image: url('https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80');
     background-repeat: no-repeat;
     background-position: center;
+    align-content: center;
     background-size: cover;
     display: table; 
 }
@@ -229,7 +230,8 @@ footer ul li a{
 } 
  
 .footer-main-cases {
-    display: none;
+    /* display: none; */
+    text-align:inherit;
 }
 
 .footer-sm {
@@ -277,3 +279,22 @@ header nav ul :hover {
 .header-brand :hover {
     color: yellow;
 } 
+
+.index-banner h2 {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+ 
+
+
+@keyframes slidein {
+  from {
+    margin-right: 0%;
+    width: 300%;
+  }
+
+  to {
+    margin-right: 100%;
+    width: 100%;
+  }
+}
