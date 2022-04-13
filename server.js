@@ -7,4 +7,4 @@ app.get('/', function (req, res) {
   res.sendFile(__dirname + "/profile.html");
 })
 
-app.listen(12345)
+app.listen(80)
