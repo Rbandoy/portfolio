@@ -180,3 +180,98 @@ header .header-cases {
     display: table-cell;
     vertical-align: middle;
 }
+
+.main-cases div h3 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px; 
+    font-style: italic;
+    font-weight: 600;
+    line-height: 100px;
+    color: #fff;
+    text-align: center; 
+}
+
+.main-cases div {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: rgb(106, 201, 171);
+}
+
+/* footer */
+footer {
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    background-color: rgb(46, 28, 28);
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+
+footer ul li{
+    display: block; 
+    list-style: none; 
+    color: #ccbd8a;
+}
+
+.company-worked {
+    display: none;
+}
+
+footer ul li a{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     color: #dfcaca;
+     line-height: 30px;
+}
+
+.footer-image {
+    width: 60px;
+    float: right; 
+}
+
+.footer-image img{
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+    header .header-logo { 
+        margin: 31px 0;
+        text-align: left;
+        line-height: 38px;
+        padding: 0 20px 0 20px;
+        border-right: 3px solid #ff9;
+        float: left;
+    }
+
+    header nav ul { 
+        margin: 20px 20px;
+        float: right;
+    }
+    
+    header nav ul li {
+        display: inline-block;
+         float: left;
+        list-style: none;
+    }
+    
+    header nav ul li a {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 14px;
+        color: rgb(37, 36, 36); 
+        padding: 0 15px;
+        line-height: 60px;
+    }
+}
+
+li :hover {
+    font-size: 18px;
+    color: yellow;
+    text-decoration: underline;
+}
